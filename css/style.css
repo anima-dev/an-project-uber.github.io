@@ -1,0 +1,222 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: relative;
+}
+
+nav {
+    background-color: #212121;
+    height: 51px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menu {
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.menu .menu_item {
+    padding: 0 26px;
+    border-right: dotted black;
+}
+
+.menu .menu_item .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.subheader {
+    position: absolute;
+    min-height: 84px;
+    width: 100%;
+    background-color: rgba(0,0,0, .6);
+}
+
+.subheader .logo_img {
+    display: block;
+    min-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .logo_txt {
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 13px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.subheader .subh_call {
+    margin-top: 23px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 300;
+    text-align: right;
+    color: #ffffff;
+}
+
+.subheader .subh_call_num {
+    display:block;
+    margin-top: 8px;
+    font-size: 22px;
+    line-height: 12px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.subheader .btn_order_call {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.promo {
+    min-height: 799px;
+    background: url('../img/bg/gaz_first_screen_bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_hr {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.promo .promo_shr {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.promo .promo_txt {
+    margin-top: 23px;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff);
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.benefits {
+    min-height: 900px;
+    padding: 71px 0 65px 0;
+}
+
+.benefits .label {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.benefits .title_black {
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+}
+
+.benefits_clm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.benefits .benefit_item {
+    display: flex;
+    margin-top: 35px;
+    width: 480px;
+    align-items: top;
+}
+
+
+.benefits .benefit_item .benefit_img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 113px;
+    height: 113px;
+    flex-grow: 2;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.benefits .benefit_item .benefit_desc {
+    margin-left: 26px;
+    width: 341px;
+}
+
+.benefits .benefit_item .benefit_desc .benefit_name {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    color: #1eacc7;
+}
+
+.benefits .benefit_item .benefit_desc .benfit_txt {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    color: #202020;
+}
+
